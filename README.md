@@ -11,7 +11,7 @@ A small Neovim plugin for Vue/JS/TS projects that use JSON-based i18n files.
 
 ```lua
 {
-  "yourname/i18n_goto.nvim",
+  "eriklennstrom/i18n_goto.nvim",
   ft = { "vue", "javascript", "typescript", "javascriptreact", "typescriptreact" },
   opts = {
     scan_dirs = { "src/translations" },
